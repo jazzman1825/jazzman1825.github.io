@@ -1,0 +1,236 @@
+body {
+    background-image: url("wallpaper.jpg");   
+    width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Heading {
+    border-width: 0px;
+    width: 1410px;
+    height: 85px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 25px;
+}
+#HTitle {
+    position: relative;
+    left: 30px; 
+    top: 25px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #02790E;
+    cursor: pointer;
+}
+#Search {
+    position: relative;
+left: 200px;
+top: -40px;
+width: 810px;
+height: 45px;
+background-color: rgba(255, 255, 255, 1);
+box-sizing: border-box;
+border-width: 1px;
+border-style: solid;
+border-color: rgba(215, 215, 215, 1);
+font-size: 18px;
+color: #AAAAAA;
+text-align: left;
+}
+#Account {
+    position: relative;
+    left: 440px;
+    top: -100px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    color: #02790E;
+    text-align: center;
+    cursor: pointer;
+}
+#cart {
+    position: relative;
+    left: 1270px;
+    top:  -165px; 
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+#CartNum {
+    position: relative;
+    left: 1350px;
+    top:  -250px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color:  #02790E;
+    
+}
+#Block1 {
+    position: relative;
+    left: -250px;
+    top: -150px; 
+    width: 100%;
+}
+#info {
+    position: absolute;
+    left: 250px;
+    top: 200px; 
+    width: 974px;
+    height: 420px;
+    background-color: white;
+    border-radius: 20px;
+}
+#GPic {
+    position: relative;
+    left: 20px;
+    top: 45px;
+    width: 359px;
+    height: 239px;
+
+}
+.Ginfo {
+    position: relative;
+    top: -200px; 
+    left: 130px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#price {
+    position: relative;
+    top: -100px; 
+    left: 130px; 
+    font-weight: 700;
+    font-size: 30px;
+    color: #4B7902;
+}
+.AddBut {
+    position: relative;
+    top: -100px;
+    left: -300px; 
+    width: 359px;
+    height: 57px;
+    background-color: rgba(217, 0, 27, 1);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer; 
+}
+.RBtext {
+    position: relative;
+    top: 15px; 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+#Desc {
+    position: relative;
+    top: -300px;
+    left: 400px;
+}
+.LeftMenu {
+    background-color: white;
+    position: absolute; 
+    left: 1351px; 
+    top: 200px;  
+    width: 309px;
+    height: 420px;
+    border-radius: 20px;
+}
+.Cat {
+    position: relative;
+    left: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #02790E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Sobaka {
+    position: absolute;
+    top: 6000px; 
+}

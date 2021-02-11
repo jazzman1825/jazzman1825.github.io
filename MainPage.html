@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="MainPage.css" />
+    </head>
+    <body>  
+
+        <div class = "Heading">
+            <p Id="HTitle">Water-Gun</p>
+            <p id = "Search">Search...</p>
+            <p id = "Account">Your account</p>
+            <img id = "cart" src="cart.png"  onclick="RedirectCart()">
+            <p Id="CartNum">0</p>
+        </div> 
+
+        <div id = "Title">Hunting shotguns</div>
+
+        <div id = "Block1">
+        <div class = "Goods g1">
+            <img id = "GPic" src="TG3.jpg" onclick="RedirectInfo()">
+            <p class = "Ginfo">
+
+            <span >
+                TG3 Carbine
+                <br>
+                Caliber 9.6x53
+                <br>
+                L=530
+            </span>
+            <p class = "price">55 540₽</p>
+            </p>
+            <div class = "AddBut" onclick="AddProduct()">
+               <p class = "RBtext">ADD TO CART</p> 
+            </div>
+        </div>
+        <div class = "Goods g2">
+            <img id = "GPic" src="Saiga12033.jpg">
+            <p class = "Ginfo">
+
+                <span >
+                    Saiga 12 - 033
+                    <br>
+                    12 gauge
+                    <br>
+                    L=330
+                </span>
+                <p class = "price">41 590₽</p>
+                </p>
+            <div class = "AddBut" >
+                <p class = "RBtext">ADD TO CART</p> 
+             </div>
+        </div>
+        <div class = "Goods g3">
+            <img id = "GPic" src="MP155.jpg">
+            <p class = "Ginfo">
+
+                <span >
+                    MP 155 Plastic
+                    <br>
+                    12 gauge
+                    <br>
+                    L=710
+                </span>
+                <p class = "price">28 260₽</p>
+                </p>
+            <div class = "AddBut">
+                <p class = "RBtext">ADD TO CART</p> 
+             </div>
+        </div>
+        <div class = "Goods g4">
+            <img id = "GPic" src="CZMallard.jpg">
+            <p class = "Ginfo">
+
+                <span >
+                    CZ Mallard
+                    <br>
+                    12 gauge
+                    <br>
+                    L=710
+                </span>
+                <p class = "price">41 570₽</p>
+                </p>
+            <div class = "AddBut">
+                <p class = "RBtext">ADD TO CART</p> 
+             </div>
+        </div>
+        <div class = "Goods g5">
+            <img id = "GPic" src="VPO21201.jpg">
+            <p class = "Ginfo">
+
+                <span >
+                    VPO 212 - 01
+                    <br>
+                    .366 caliber
+                    <br>
+                    L=520
+                </span>
+                <p class = "price">51 470₽</p>
+                </p>
+            <div class = "AddBut">
+                <p class = "RBtext">ADD TO CART</p> 
+             </div>
+        </div>
+        <div class = "Goods g6">
+            <img id = "GPic" src="VPO22203.jpg">
+            <p class = "Ginfo">
+
+                <span >
+                    Saiga 12 - 033
+                    <br>
+                    12 gauge
+                    <br>
+                    L=330
+                </span>
+                <p class = "price">55 540₽</p>
+                </p>
+            <div class = "AddBut">
+                <p class = "RBtext">ADD TO CART</p> 
+             </div>
+        </div>
+        <div class = "LeftMenu">
+            <p class = "Cat">▼ Pistols</p>
+            <p class = "Cat">▼ Small caliber rifles</p>
+            <p class = "Cat">▼ Hunting rifles</p>
+            <p class = "Cat">▼ Pump Shotguns</p>
+            <p class = "Cat">▼ Semi - auto shotguns</p>
+            <p class = "Cat">▼ Gunpowder</p>
+            <p class = "Cat">▼ Ammo</p>
+            <p class = "Cat">▼ Accessories</p>
+            <p class = "Cat">▼ Field uniform</p>
+        </div>
+        </div>
+
+        <script>
+            function RedirectMain() {
+              location.replace("MainPage.html")
+            }
+            function RedirectInfo() {
+              location.replace("InfoPage.html")
+            }
+            function AddProduct() {
+                var flag = 1; 
+                sessionStorage.setItem("flag", flag)
+                location.replace("ShoppingCart.html")
+            }
+            function RedirectCart() {
+                location.replace("ShoppingCart.html")
+            }
+            </script>
+    </body>
+
+</html>

@@ -1,0 +1,163 @@
+body {
+    background-image: url("wallpaper.jpg");   
+    width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Heading {
+    border-width: 0px;
+    width: 1410px;
+    height: 85px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 25px;
+}
+#HTitle {
+    position: relative;
+    left: 30px; 
+    top: 25px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #02790E;
+}
+#Search {
+    position: relative;
+left: 200px;
+top: -40px;
+width: 810px;
+height: 45px;
+background-color: rgba(255, 255, 255, 1);
+box-sizing: border-box;
+border-width: 1px;
+border-style: solid;
+border-color: rgba(215, 215, 215, 1);
+font-size: 18px;
+color: #AAAAAA;
+text-align: left;
+}
+#Account {
+    position: relative;
+    left: 440px;
+    top: -100px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    color: #02790E;
+    text-align: center;
+}
+#cart {
+    position: relative;
+    left: 1270px;
+    top:  -165px; 
+    width: 55px;
+    height: 55px;
+}
+#CartNum {
+    position: relative;
+    left: 1350px;
+    top:  -250px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color:  #02790E;
+}
+#Title {
+    position: relative;
+    top: 25px; 
+    font-size: 27px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+        border-bottom-color: currentcolor;
+    width: 1410px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);
+}
+.LeftMenu {
+    background-color: white;
+    position: relative; 
+    left: 1100px;
+    top: -205px;
+    width: 309px;
+    height: 300px;
+    border-radius: 20px;
+}
+#Total {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+#totalsum {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: green; 
+}
+#Product {
+    position: relative; 
+    top: 50px;
+    width: 989px;
+    height: 258px;
+    background: white; 
+    border-radius: 25px;
+}
+#GPic {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    width: 316px;
+    height: 210px;
+
+}
+#title {
+    position: relative;
+    top: -150px; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+#price{
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #4B7902;
+    text-align: center;
+}
+#plus {
+    position: relative;
+    left: 860px;
+    top: -10px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: grey;
+    border-radius: 20px;
+}
+#minus {
+    position: relative;
+    left: 940px;
+    top: -70px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: grey;
+    border-radius: 20px;
+}
+#quant {
+    position: relative;
+    top: -40px;
+    left: 910px;
+    font-size: 20px;
+}

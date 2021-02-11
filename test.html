@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+    </head>
+    <body>
+       <div id = "target"> </div>
+       <div id = "target1"> </div>
+       <div id = "target2"> </div>
+
+        <script>
+            let qty = 1;
+            let price = 55540;
+            let select = `
+                <button id = "plus" onclick="PlusFunc()">+</button>
+                <button id = "minus" onclick="MinusFunc()">-</button>`
+
+            target.innerHTML = select
+            target1.innerHTML = qty
+            target2.innerHTML = price
+
+            function PlusFunc() {
+                qty += 1
+                price += 55540
+                target1.innerHTML = qty
+                target2.innerHTML = price
+            }
+            function MinusFunc() {
+                if (qty != 1) {
+                qty -= 1
+                price -= 55540
+                target1.innerHTML = qty
+                target2.innerHTML = price
+            }
+            }
+        </script>
+
+
+
+
+
+    </body>
+</html>

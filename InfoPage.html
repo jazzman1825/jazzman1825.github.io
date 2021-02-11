@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="InfoPage.css" />
+    </head>
+    <body>  
+
+        <div class = "Heading">
+            <p Id="HTitle" onclick="RedirectMain()">Water-Gun</p>
+            <p id = "Search">Search...</p>
+            <p id = "Account">Your account</p>
+            <img id = "cart" src="cart.png"  onclick="RedirectCart()">
+            <p Id="CartNum">0</p>
+        </div> 
+       
+        <div id = "Block1"> 
+        <div id = "info">
+           
+            <img id = "GPic" src="TG3.jpg">
+
+            <p class = "Ginfo">
+
+                <span style="font-family:'Arial Bold', 'Arial', sans-serif;font-weight:700;">
+                    TG3 Carbine
+                </span>
+                </span>
+                <span>
+                    <br>
+                    Caliber 9.6x53
+                    <br>
+                    L=530
+                </span>
+            <p id = "price">55 540₽</p>
+            <div class = "AddBut" onclick="AddProduct()">
+                <p class = "RBtext" >ADD TO CART</p> 
+                
+             </div>
+             <span id = "Desc">
+                Great hunting carbine made by Kalashnikov Group in 9.6x53 cal.<br><br>Perfect for hunting and long range shooting.
+                <br>
+                <br>
+            </span>
+        </div>     
+        <div class = "LeftMenu">
+            <p class = "Cat">▼ Pistols</p>
+            <p class = "Cat">▼ Small caliber rifles</p>
+            <p class = "Cat">▼ Hunting rifles</p>
+            <p class = "Cat">▼ Pump Shotguns</p>
+            <p class = "Cat">▼ Semi - auto shotguns</p>
+            <p class = "Cat">▼ Gunpowder</p>
+            <p class = "Cat">▼ Ammo</p>
+            <p class = "Cat">▼ Accessories</p>
+            <p class = "Cat">▼ Field uniform</p>
+        </div>
+        </div><img id = "Sobaka" src = "https://thehappypuppysite.com/wp-content/uploads/2018/06/Shiba-Inu-Wonderful-Watchdog-or-Family-Pet_-HP-long-1024x488.jpg">
+        
+        <script>
+            function RedirectMain() {
+              location.replace("MainPage.html")
+            }
+            function AddProduct() {
+                var flag = 1; 
+                sessionStorage.setItem("flag", flag)
+                location.replace("ShoppingCart.html")
+            }
+            function RedirectCart() {
+                location.replace("ShoppingCart.html")
+            }
+            </script>
+        
+    </body>

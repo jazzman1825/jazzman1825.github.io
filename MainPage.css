@@ -1,0 +1,188 @@
+
+body {
+    background-image: url("wallpaper.jpg");   
+    width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Heading {
+    border-width: 0px;
+    width: 1410px;
+    height: 85px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 25px;
+}
+#HTitle {
+    position: relative;
+    left: 30px; 
+    top: 25px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #02790E;
+}
+#Search {
+    position: relative;
+left: 200px;
+top: -40px;
+width: 810px;
+height: 45px;
+background-color: rgba(255, 255, 255, 1);
+box-sizing: border-box;
+border-width: 1px;
+border-style: solid;
+border-color: rgba(215, 215, 215, 1);
+font-size: 18px;
+color: #AAAAAA;
+text-align: left;
+}
+#Account {
+    position: relative;
+    left: 440px;
+    top: -100px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    color: #02790E;
+    text-align: center;
+}
+#cart {
+    position: relative;
+    left: 1270px;
+    top:  -165px; 
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+#CartNum {
+    position: relative;
+    left: 1350px;
+    top:  -250px;
+    font-family: 'Arial Bold', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color:  #02790E;
+}
+#Title {
+    position: relative;
+    top: 25px; 
+    font-size: 27px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+        border-bottom-color: currentcolor;
+    width: 1410px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);
+}
+#Block1 {
+    position: relative;
+    left: -250px;
+    top: -150px; 
+    width: 100%;
+}
+.Goods { 
+    width: 284px;
+    height: 352px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    
+}
+#GPic {
+    position: relative;
+    left: 10px; 
+    top: 5px; 
+    width: 245px;
+    height: 163px;
+    cursor: pointer; 
+
+}
+.Ginfo {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.price {
+    position: relative;
+    top: 10px; 
+    font-weight: 700;
+font-size: 22px;
+color: #4B7902;
+text-align: center;
+margin: 0 auto;
+}
+.AddBut {
+    width: 245px;
+    height: 41px;
+    background-color: rgba(217, 0, 27, 1);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer; 
+}
+.RBtext {
+    position: relative;
+    top: 10px; 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.g1 {
+    position: absolute; 
+    left: 250px;
+    top: 200px;
+}
+.g2 {
+    position: absolute; 
+    top: 200px;
+    left: 614px;
+}
+.g3 {
+    position: absolute; 
+    top: 200px;
+    left: 978px;
+}
+.g4 {
+    position: absolute; 
+    left: 250px;
+    top: 600px;
+}
+.g5 {
+    position: absolute; 
+    top: 600px;
+    left: 614px;
+}
+.g6 {
+    position: absolute; 
+    top: 600px;
+    left: 978px;
+}
+.LeftMenu {
+    background-color: white;
+    position: absolute; 
+    left: 1351px; 
+    top: 200px; 
+    width: 309px;
+    height: 420px;
+    border-radius: 20px;
+}
+.Cat {
+    position: relative;
+    left: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #02790E;
+}
